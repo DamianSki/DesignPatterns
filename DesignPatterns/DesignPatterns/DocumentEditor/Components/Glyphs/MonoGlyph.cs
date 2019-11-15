@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using DesignPatterns.DocumentEditor.Primitives;
+using DesignPatterns.DocumentEditor.Primitives.Windows;
 
 namespace DesignPatterns.DocumentEditor.Components.Glyphs
 {

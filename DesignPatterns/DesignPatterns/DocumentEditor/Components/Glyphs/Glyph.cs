@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.DocumentEditor.Primitives;
+using DesignPatterns.DocumentEditor.Primitives.Windows;
 
 namespace DesignPatterns.DocumentEditor.Components
 {
