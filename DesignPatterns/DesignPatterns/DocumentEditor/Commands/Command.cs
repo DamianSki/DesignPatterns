@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace DesignPatterns.DocumentEditor.Components.Commands
+namespace DesignPatterns.DocumentEditor.Commands
 {
     abstract class Command
     {
-        protected Object _state;
+        protected object _state;
 
         public abstract void Execute();
     }

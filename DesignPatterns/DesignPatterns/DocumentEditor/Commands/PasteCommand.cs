@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace DesignPatterns.DocumentEditor.Components.Commands
+namespace DesignPatterns.DocumentEditor.Commands
 {
-    class FontCommand : Command
+    class PasteCommand : Command
     {
         public override void Execute()
         {

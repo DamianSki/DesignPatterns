@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace DesignPatterns.DocumentEditor.Components.Commands
+namespace DesignPatterns.DocumentEditor.Commands
 {
-    class QuitCommand : Command
+    class FontCommand : Command
     {
         public override void Execute()
         {

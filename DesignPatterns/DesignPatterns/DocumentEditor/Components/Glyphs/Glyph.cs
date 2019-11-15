@@ -1,4 +1,4 @@
-﻿using DesignPatterns.DocumentEditor.Components.Commands;
+﻿using DesignPatterns.DocumentEditor.Commands;
 using DesignPatterns.DocumentEditor.Primitives;
 using DesignPatterns.DocumentEditor.Primitives.Windows;
 
