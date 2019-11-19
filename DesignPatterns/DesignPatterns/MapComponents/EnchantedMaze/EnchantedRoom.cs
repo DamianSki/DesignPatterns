@@ -1,6 +1,10 @@
 ﻿namespace DesignPatterns.MapComponents.EnchantedMaze
 {
-    class EnchantedRoom : Room
+    public class EnchantedRoom : Room
     {
+        public EnchantedRoom(int n) : base(n)
+        {
+
+        }
     }
 }

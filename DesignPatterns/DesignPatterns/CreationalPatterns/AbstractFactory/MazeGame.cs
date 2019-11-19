@@ -7,8 +7,8 @@ namespace DesignPatterns.CreationalPatterns.AbstractFactory
         public void CreateMaze(MazeFactory factory)
         {
             Maze maze = factory.MakeMaze();
-            Room r1 = factory.MakeRoom();
-            Room r2 = factory.MakeRoom();
+            Room r1 = factory.MakeRoom(1);
+            Room r2 = factory.MakeRoom(2);
 
             factory.MakeDoor(r1, r2);
 

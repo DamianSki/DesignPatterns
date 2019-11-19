@@ -1,8 +1,9 @@
 ﻿using System;
+using DesignPatterns.MapComponents.Enums;
 
 namespace DesignPatterns.MapComponents
 {
-    class Door : MapSite
+    public class Door : MapSite
     {
         private Room r1;
         private Room r2;
@@ -22,8 +23,8 @@ namespace DesignPatterns.MapComponents
         {
             throw new NotImplementedException();
         }
-
-        public override void SetSide(int direction, MapSite site)
+        
+        public override void SetSide(DirectionEnum direction, MapSite site)
         {
             throw new NotImplementedException();
         }

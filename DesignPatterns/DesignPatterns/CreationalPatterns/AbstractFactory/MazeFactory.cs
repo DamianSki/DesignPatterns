@@ -2,10 +2,10 @@
 
 namespace DesignPatterns.CreationalPatterns.AbstractFactory
 {
-    abstract class MazeFactory
+    public abstract class MazeFactory
     {
         public abstract Maze MakeMaze();
-        public abstract Room MakeRoom();
+        public abstract Room MakeRoom(int n);
         public abstract Door MakeDoor(Room r1, Room r2);
         public abstract Wall MakeWall();
     }
