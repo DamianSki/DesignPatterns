@@ -15,7 +15,8 @@ namespace DesignPatterns.DocumentEditor.Components
         public abstract void Insert(Glyph glyph);
         public abstract void Remove(Glyph glyph);
 
-        public virtual IIterator<object> CreateIterator() {
+        public virtual IIterator<object> CreateIterator()
+        {
             return new NullIterator();
         }
     }

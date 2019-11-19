@@ -1,9 +1,12 @@
-﻿using System;
+﻿using DesignPatterns.MapComponents.Enums;
+using System;
 
-namespace DesignPatterns.CreationalPatterns.AbstractFactory.MapComponents
+namespace DesignPatterns.MapComponents
 {
-    class Wall : MapSite
+    public class Room : MapSite
     {
+        public Room(int n) { }
+        
         public override void Enter()
         {
             throw new NotImplementedException();
@@ -14,7 +17,7 @@ namespace DesignPatterns.CreationalPatterns.AbstractFactory.MapComponents
             throw new NotImplementedException();
         }
 
-        public override void SetSide(int direction, MapSite site)
+        public override void SetSide(DirectionEnum direction, MapSite site)
         {
             throw new NotImplementedException();
         }

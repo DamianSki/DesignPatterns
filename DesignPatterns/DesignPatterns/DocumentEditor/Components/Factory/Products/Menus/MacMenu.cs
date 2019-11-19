@@ -1,5 +1,5 @@
-﻿using System;
-using DesignPatterns.DocumentEditor.Primitives.Windows;
+﻿using DesignPatterns.DocumentEditor.Primitives.Windows;
+using System;
 
 namespace DesignPatterns.DocumentEditor.Components.Factory.Products.Menus
 {
@@ -13,6 +13,6 @@ namespace DesignPatterns.DocumentEditor.Components.Factory.Products.Menus
         public override void Popup()
         {
             throw new NotImplementedException();
-        }        
+        }
     }
 }

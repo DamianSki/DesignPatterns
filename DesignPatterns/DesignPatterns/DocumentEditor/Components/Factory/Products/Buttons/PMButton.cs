@@ -1,5 +1,5 @@
-﻿using System;
-using DesignPatterns.DocumentEditor.Primitives.Windows;
+﻿using DesignPatterns.DocumentEditor.Primitives.Windows;
+using System;
 
 namespace DesignPatterns.DocumentEditor.Components.Factory.Products.Buttons
 {

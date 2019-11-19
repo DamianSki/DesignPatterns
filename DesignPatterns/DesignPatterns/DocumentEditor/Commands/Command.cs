@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DesignPatterns.DocumentEditor.Commands
+﻿namespace DesignPatterns.DocumentEditor.Commands
 {
     abstract class Command
     {

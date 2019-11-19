@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace DesignPatterns.CreationalPatterns.AbstractFactory.MapComponents
+namespace DesignPatterns.MapComponents
 {
-    class Door : MapSite
+    class Wall : MapSite
     {
         public override void Enter()
         {

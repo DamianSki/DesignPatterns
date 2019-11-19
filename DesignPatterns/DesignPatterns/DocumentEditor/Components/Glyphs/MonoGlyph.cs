@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using DesignPatterns.DocumentEditor.Primitives;
+﻿using DesignPatterns.DocumentEditor.Primitives;
 using DesignPatterns.DocumentEditor.Primitives.Windows;
+using System;
+using System.Collections.Generic;
 
 namespace DesignPatterns.DocumentEditor.Components.Glyphs
 {

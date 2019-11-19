@@ -1,5 +1,5 @@
-﻿using System;
-using DesignPatterns.DocumentEditor.Primitives.Windows;
+﻿using DesignPatterns.DocumentEditor.Primitives.Windows;
+using System;
 
 namespace DesignPatterns.DocumentEditor.Components.Factory.Products.Scrolls
 {
@@ -9,7 +9,7 @@ namespace DesignPatterns.DocumentEditor.Components.Factory.Products.Scrolls
         {
             throw new NotImplementedException();
         }
-               
+
 
         public override void ScrollTo(int location)
         {
