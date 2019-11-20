@@ -8,9 +8,7 @@ namespace DesignPatterns.CreationalPatterns.FactoryMethod
         public EnchantedMazeGame()
         {
         }
-
         public override Room MakeRoom(int n) => new EnchantedRoom(n);
-
         public override Door MakeDoor(Room rl, Room r2) => new MagicalDoor(rl, r2);
     }
 }
