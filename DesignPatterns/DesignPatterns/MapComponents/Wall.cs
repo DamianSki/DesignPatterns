@@ -3,7 +3,7 @@ using DesignPatterns.MapComponents.Enums;
 
 namespace DesignPatterns.MapComponents
 {
-    public class Wall : MapSite
+    public class Wall : MapSite, ICloneable
     {
         public override void Enter()
         {
@@ -14,8 +14,12 @@ namespace DesignPatterns.MapComponents
         {
             throw new NotImplementedException();
         }
-        
+
         public override void SetSide(DirectionEnum direction, MapSite site)
+        {
+            throw new NotImplementedException();
+        }
+        public object Clone()
         {
             throw new NotImplementedException();
         }
