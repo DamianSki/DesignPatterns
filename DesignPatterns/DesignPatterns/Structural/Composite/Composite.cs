@@ -14,7 +14,7 @@
 
         public override Component GetChild(int id)
         {
-            base.GetChild(id);
+            return null;
         }
 
         public override void Remove(Component component)
