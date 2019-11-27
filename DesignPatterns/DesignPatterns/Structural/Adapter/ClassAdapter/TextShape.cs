@@ -3,7 +3,7 @@
 namespace DesignPatterns.Structural.Adapter.ClassAdapter
 {
     public class TextShape : TextView, IShape
-    {        
+    {
         public (Point, Point) BoundingBox(int left, int top)
         {
             int x = 0;
@@ -19,7 +19,7 @@ namespace DesignPatterns.Structural.Adapter.ClassAdapter
 
         public void CreateManipulator() { }
 
-        public void BoundingBox(ref int left, ref int top) {  }
+        public void BoundingBox(ref int left, ref int top) { }
 
         public override bool IsEmpty => base.IsEmpty;
     }

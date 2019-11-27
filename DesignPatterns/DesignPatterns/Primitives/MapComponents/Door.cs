@@ -1,5 +1,5 @@
-﻿using System;
-using DesignPatterns.MapComponents.Enums;
+﻿using DesignPatterns.MapComponents.Enums;
+using System;
 
 namespace DesignPatterns.MapComponents
 {

@@ -16,10 +16,11 @@ namespace DesignPatterns.DocumentEditor.Primitives.Windows
         public abstract void Lower();
         public abstract void Raise();
         public abstract void DrawLine();
-        public abstract void Open(); 
+        public abstract void Open();
         public abstract void Close();
 
-        protected virtual WindowImp GetWindowImp() {
+        protected virtual WindowImp GetWindowImp()
+        {
             return null; //creates specifi window imp
         }
     }

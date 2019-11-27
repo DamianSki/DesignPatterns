@@ -21,7 +21,7 @@ namespace DesignPatterns.CreationalPatterns.Prototype
         {
             var door = (Door)_door.Clone();
             door.Initialize(r1, r2);
-            return door;   
+            return door;
         }
 
         public override Maze MakeMaze => (Maze)_maze.Clone();

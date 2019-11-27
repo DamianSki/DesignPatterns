@@ -4,7 +4,7 @@
     {
         public RoomWithABomb(int n) : base(n)
         {
-     
+
         }
     }
 }

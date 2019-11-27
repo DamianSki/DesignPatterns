@@ -2,7 +2,7 @@
 {
     public class RefinedAbstraction : Abstraction
     {
-        public RefinedAbstraction(Implementator implementator) : base(implementator)  {  }
+        public RefinedAbstraction(Implementator implementator) : base(implementator) { }
 
         public override void Operation()
         {

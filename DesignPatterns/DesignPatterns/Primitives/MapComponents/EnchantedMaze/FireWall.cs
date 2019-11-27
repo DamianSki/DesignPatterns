@@ -1,6 +1,4 @@
-﻿using DesignPatterns.MapComponents;
-
-namespace DesignPatterns.MapComponents.EnchantedMaze
+﻿namespace DesignPatterns.MapComponents.EnchantedMaze
 {
     class FireWall : Wall
     {

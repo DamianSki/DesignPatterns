@@ -8,10 +8,12 @@ namespace DesignPatterns.Structural.Composite
     {
         protected IEnumerable<Component> _components;
         public abstract void Operation();
-        public virtual void Add(Component component) {
+        public virtual void Add(Component component)
+        {
             throw new NotImplementedException();
         }
-        public virtual void Remove(Component component) {
+        public virtual void Remove(Component component)
+        {
             throw new NotImplementedException();
         }
         public virtual Component GetChild(int id) { throw new NotImplementedException(); }

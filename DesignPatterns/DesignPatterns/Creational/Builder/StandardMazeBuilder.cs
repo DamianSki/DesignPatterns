@@ -14,13 +14,14 @@ namespace DesignPatterns.CreationalPatterns.Builder
 
         public override void BuildRoom(int n)
         {
-            if (_maze.RoomNo(n) != null) {
+            if (_maze.RoomNo(n) != null)
+            {
                 var room = new Room(n);
                 _maze.AddRoom(room);
 
                 room.SetSide(DirectionEnum.North, new Wall());
                 room.SetSide(DirectionEnum.South, new Wall());
-                room.SetSide(DirectionEnum.East, new Wall()); 
+                room.SetSide(DirectionEnum.East, new Wall());
                 room.SetSide(DirectionEnum.West, new Wall());
             }
         }

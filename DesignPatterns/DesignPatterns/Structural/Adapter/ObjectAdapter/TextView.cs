@@ -1,6 +1,7 @@
 ﻿namespace DesignPatterns.Structural.Adapter
 {
-    public class TextView {
+    public class TextView
+    {
         public TextView() { }
 
         public void GetOrigin(ref int x, ref int y)
