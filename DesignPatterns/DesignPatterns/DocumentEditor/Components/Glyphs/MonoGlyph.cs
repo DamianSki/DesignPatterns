@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.DocumentEditor.Primitives;
 using DesignPatterns.DocumentEditor.Primitives.Windows;
+using DesignPatterns.Primitives.Drawing;
 using System;
 using System.Collections.Generic;
 

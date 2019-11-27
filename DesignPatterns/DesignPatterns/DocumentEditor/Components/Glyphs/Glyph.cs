@@ -2,6 +2,7 @@
 using DesignPatterns.DocumentEditor.Iterators;
 using DesignPatterns.DocumentEditor.Primitives;
 using DesignPatterns.DocumentEditor.Primitives.Windows;
+using DesignPatterns.Primitives.Drawing;
 
 namespace DesignPatterns.DocumentEditor.Components
 {
