@@ -10,7 +10,7 @@ namespace DesignPatterns.Structural.Proxy
         {
             _realSubject = realSubject;
         }
-                
+
         public void Request()
         {
             if (CheckAccess())
@@ -23,7 +23,7 @@ namespace DesignPatterns.Structural.Proxy
         }
 
         public bool CheckAccess()
-        {            
+        {
             Console.WriteLine("Checking access prior to firing a real request.");
             return true;
         }
