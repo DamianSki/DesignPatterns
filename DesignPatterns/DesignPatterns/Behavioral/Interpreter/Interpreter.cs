@@ -2,7 +2,7 @@
 {
     public class Interpreter
     {
-        private int position = 0;       
+        private int position = 0;
 
         IExpression Execute(Context context)
         {
@@ -17,14 +17,15 @@
             else
                 return ReadNonTerminal(context);
         }
-        
-        private IExpression ReadNonTerminal(Context context) {
+
+        private IExpression ReadNonTerminal(Context context)
+        {
             var oper = context.Input[position++];
 
             IExpression exp1 = Execute(context);
             IExpression exp2 = Execute(context);
 
-            switch (oper) 
+            switch (oper)
             {
                 case "+":
                     return new AddExpression(exp1, exp2);
